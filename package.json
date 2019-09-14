@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Fin23/group-project-2/issues"
   },
-  "homepage": "https://github.com/Fin23/group-project-2#readme"
+  "homepage": "https://github.com/Fin23/group-project-2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  }
 }

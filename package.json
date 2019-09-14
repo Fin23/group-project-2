@@ -1,0 +1,20 @@
+{
+  "name": "second-chance",
+  "version": "1.0.0",
+  "description": "Second Group Project, simple app to find adoptable dogs from shelters",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fin23/group-project-2.git"
+  },
+  "author": "Ross Sam Phil Seva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fin23/group-project-2/issues"
+  },
+  "homepage": "https://github.com/Fin23/group-project-2#readme"
+}

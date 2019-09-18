@@ -22,9 +22,10 @@ app.use(express.static("app/public"));
 // =============================================================
 //require("./app/routes/api-routes.js")(app);
 require("./app/routes/html-routes.js")(app);
+require("./app/routes/api-routes.js")(app);
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
 });

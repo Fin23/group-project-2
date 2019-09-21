@@ -2,12 +2,12 @@ var db = require("../models");
 
 module.exports = function (app) {
     app.get("/api/volunteers", function (req, res) {
-        db.Vols.findall({}).then(function (dbVols) {
+        db.Volunteer.findAll({}).then(function (dbVols) {
             res.json(dbVols);
         });
     });
     app.post("/api/volunteers", function (req, res) {
-        db.Vols.create({
+        db.Volunteer.create({
             text: req.body.text,
             complete: req.body.complete
         }).then(function (dbVols) {
@@ -18,7 +18,7 @@ module.exports = function (app) {
             });
     });
     app.delete("/api/volunteers/:id", function (req, res) {
-        db.Vols.destroy({
+        db.Volunteer.destroy({
             where: {
                 id: req.params.id
             }
@@ -27,7 +27,7 @@ module.exports = function (app) {
         });
     });
     app.put("/api/volunteers", function (req, res) {
-        db.Vols.update({
+        db.Volunteer.update({
             text: req.body.text,
             complete: req.body.complete
         }, {

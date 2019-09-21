@@ -1,0 +1,77 @@
+
+
+header{
+    background: #deba6f;
+    padding: 20px;
+    text-align:center;
+}
+body{
+    background-color:#6ec3c5;
+    margin: 0;
+}
+
+
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #b3183d;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #deba6f;
+    color: black;
+  }
+
+
+img[src="Images/woofer.jpg"] { 
+    height: 300px;
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 50%;
+    opacity:.7;
+ }
+
+img[src="Images/twoDogs.jpg"] { 
+    height: 300px;
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 50%;
+    opacity:.7;
+ }
+img[src="Images/slytherin.jpg"] { 
+    height: 300px;
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 50%;
+    opacity:.7;
+ }
+
+
+
+/* background-image: url("../Images/twoDogs.jpg");
+opacity: 1;
+width: 50%;
+height: 700px; /* You must set a specified height */
+/* background-position: center; /* Center the image */
+/* background-repeat: no-repeat; /* Do not repeat the image */
+/* border-radius: 100%;
+background-size: cover; Resize the background image to cover the entire container  */ 
+

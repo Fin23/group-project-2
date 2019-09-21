@@ -1,13 +1,107 @@
 
 
-header{
+/* header{
     background: #deba6f;
     padding: 20px;
     text-align:center;
-}
+} */
 body{
     background-color:#6ec3c5;
     margin: 0;
+}
+p{
+    padding: 50px;
+    background-color:
+    #fdd631;
+}
+/* using for fading in and out on scroll */
+
+header {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background-color: #aaa;
+    height: 300px;
+    opacity: 1;
+    text-align: center;
+    font-family: 'helvetica';
+    font-size: 80px;
+    font-weight: 100;
+    color: #fff;
+  }
+  
+  .title {
+    position: absolute;
+    top: 60%;
+    left: 100px;
+  }
+
+
+
+
+.row1 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+    margin: 0px;
+    background-color:#dc3f46;
+}
+.row2 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+    margin: 0px;
+   
+}
+.row3 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+.row4 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+.row5 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+.row6 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+.four1 {
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
+    background-color:
+    
+}
+.four2 {
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
+}
+.four3 {
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
+}
+.four4 {
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
 }
 
 

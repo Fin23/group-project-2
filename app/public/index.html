@@ -9,6 +9,7 @@
                                                                    <!-- non bootstrap css -->
 <link rel= "stylesheet" href= "css/grid.css">
 <link rel = "stylesheet" href="css/indexStyle.css">
+<link rel = "stylesheet" href ="css/picGallery.css">
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">
 
@@ -45,8 +46,11 @@
 
  
 <div class = "row1">
-   <div class="content-3-columns ">     
+   <div class="content-3-columns ">  
+     
+    
     <div class = "four5" data-aos="flip-right">
+
         <img src="Images/pugHuf.jpg">
           </div>
 
@@ -78,10 +82,45 @@
 
 
   <div class="row3">
-    <div class = "four3" data-aos="flip-left">
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Images/pugHuf.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="">2 / 3</div>
+      <img src="Images/ravenclaw.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Images/slytherin.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    <!-- <div class = "four3" data-aos="flip-left">
        <img src="Images/ravenclaw.jpg">
-        </div>
-          </div>
+        </div> -->
+          </div>  <!-- end of row 3 --> 
         
   
   <div class="row4" data-aos="fade-right">
@@ -115,6 +154,11 @@
 
 
 
+
+  
+
+
+
 <div class = "row">
 
     <div class="item" data-aos="fade-up">1</div>
@@ -136,7 +180,45 @@
 
 
       
+<div class="row">
 
+
+  <!-- Slideshow container -->
+<!-- <div class="slideshow-container"> -->
+
+    <!-- Full-width images with number and caption text -->
+    <!-- <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Images/pugHuf.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="">2 / 3</div>
+      <img src="Images/ravenclaw.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Images/slytherin.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div> -->
+  
+    <!-- Next and previous buttons -->
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+   -->
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+
+</div>
 
 
 
@@ -157,6 +239,8 @@
 <!-- for css and html styling from website -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/animation.js" type="text/javascript"></script>
+<script src="js/picScroll.js" type="text/javascript"></script>
+
 <!-- <script>
     AOS.init();
   </script> -->

@@ -6,60 +6,127 @@
     text-align:center;
 } */
 body{
-    background-color:#6ec3c5;
+ background-color: #60727c;
     margin: 0;
 }
-p{
-    padding: 50px;
+.infoBar1{
+  width:91.5%;
+  float: left;
+  margin-left:2%;
+    /* padding: 50px; */
     background-color:
     #fdd631;
+    left:-50px;
+    border-style: solid;
+    
 }
+
+img[src="Images/huff.jpg"] { 
+  float:center;
+  width:100%;
+  height:100px;
+  border-style: solid;
+ 
+ } 
+
+.eleven1 {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+
+
+
+.infoBar2{
+    /* padding: 50px; */
+    background-color:
+    #5158b8;
+    width: 91.5%;
+    float: left;
+    margin-left: 2%;
+    border-style:solid;
+}
+ img[src="Images/rB.jpg"] { 
+ float:center;
+ width:100%;
+ height:100px;
+ border-style:solid;
+
+
+} 
+
+.infoBar3{
+  width: 91.5%;
+	float: left;
+	margin-left: 2%;
+    background-color:
+    #234038;
+    border-style:solid;
+}
+img[src="Images/sB.jpg"] { 
+  float:center;
+  width:100%;
+  height:100px;
+  border-style: solid;
+ 
+ } 
+
+
 /* using for fading in and out on scroll */
 
 header {
     margin: 0;
-    position: relative;
+    position:sticky;
     width: 100%;
-    background-color: #aaa;
+    background-color: 
+    #bb8f6d;
     height: 300px;
     opacity: 1;
     text-align: center;
     font-family: 'helvetica';
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 100;
     color: #fff;
   }
+
   
   .title {
     position: absolute;
     top: 60%;
     left: 100px;
+    font-family:'Cinzel Decorative', cursive;
+
   }
 
 
 
 
 .row1 {
-	width: 100%;
-	clear: both; /* Clear creates new styles for the next row */
-	padding: 0px;
-    margin: 0px;
-    background-color:#dc3f46;
-}
-.row2 {
+  
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
     margin: 0px;
    
 }
+
+.row2 {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+    margin: 0px;
+    background-color: #bb8f6d;
+   
+}
 .row3 {
+ 
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
 	margin: 0px;
 }
 .row4 {
+ 
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
@@ -77,45 +144,33 @@ header {
 	padding: 0px;
 	margin: 0px;
 }
-.four1 {
-	width: 32%;
-	float:left;
-    margin-left: 2%;
-    padding:60px;
-    background-color:
-    
-}
-.four2 {
-	width: 32%;
-	float:left;
-    margin-left: 2%;
-    padding:60px;
-}
-.four3 {
-	width: 32%;
-	float:left;
-    margin-left: 2%;
-    padding:60px;
-}
-.four4 {
-	width: 32%;
-	float:left;
-    margin-left: 2%;
-    padding:60px;
+
+/* getting animations */
+* {
+  box-sizing: border-box;
 }
 
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: pink;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
 
-  /* Style the header */
-  .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
+/* end of animations */
+
+ 
   
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
     background-color: #b3183d;
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Cardo', serif;
   }
   
   /* Style the topnav links */
@@ -130,33 +185,100 @@ header {
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #deba6f;
+    background-color:   #bb8f6d;
     color: black;
   }
 
 
 img[src="Images/woofer.jpg"] { 
-    height: 300px;
-    width: 300px;
+    height: 240px;
+    width: 240px;
     border: 4px solid white;
     border-radius: 50%;
-    opacity:.7;
+    /* opacity:.7; */
+    float:right;
+    position:fixed;
+    z-index: 1000;
+    top:0;
+    margin:20px;
  }
+ .four1 {
+	/* width: 32%; */
+	float: right;
+   margin-top:2%; 
+   padding-right:320px;
+  
+    /* padding:60px; */
+    z-index: 1000;
+    
+    top:0;
+}
 
-img[src="Images/twoDogs.jpg"] { 
+ .four2 {
+   height: 350px;
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
+}
+
+img[src="Images/ravenclaw.jpg"] { 
     height: 300px;
     width: 300px;
     border: 4px solid white;
     border-radius: 50%;
-    opacity:.7;
+    opacity:.9;
+    float:center;
+  
  }
+ img[src="Images/pugHuf.jpg"] { 
+
+
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+ 
+ } 
+ .four5 {
+  height: 380px;
+ width: 32%;
+ float:left;
+   margin-left: 2%;
+   padding:60px;
+}
+.eight1 {
+  height:50px;
+	width: 60%;
+	float: center;
+  /* margin-left: 2%; */
+
+}
+
+ .four3 {
+   height: 450px;
+	width: 91%;
+	float:center;
+    margin-left: 2%;
+    padding:60px;
+    
+ 
+}
 img[src="Images/slytherin.jpg"] { 
     height: 300px;
     width: 300px;
     border: 4px solid white;
     border-radius: 50%;
-    opacity:.7;
+    opacity:.9;
  }
+ .four4 {
+   height: 470px;
+	width: 32%;
+	float:left;
+    margin-left: 2%;
+    padding:60px;
+}
 
 
 

@@ -1,0 +1,33 @@
+.team-photo {
+height: 300px;
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 50%;
+    opacity:.9;
+    
+
+}
+
+.team-name {
+    font-size: xx-large;
+    color: red;
+
+}
+
+.team-title {
+    font-size: xx-large;
+    color: red;
+
+}
+
+.team-house {
+    font-size: xx-large;
+    color: red;
+
+}
+
+.team-bio {
+    font-size: xx-large;
+    color: red;
+
+}

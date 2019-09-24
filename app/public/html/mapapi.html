@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Map</title>
+
+
+
+  
+<!--Bootstrap stylesheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel= "stylesheet" href= "../css/grid.css">
+<link rel = "stylesheet" href="../css/indexStyle.css">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">
+
+            <!-- other css links -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                                                                  <!-- Bootstrap CSS & JS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+ 
+                                                                        <!-- jQuery -->
+<script src="https://code.jquery.com/jquery.js"></script> 
+ 
+
+</head>
+
+<div class="topnav">
+<a href="../html/form.html">volunteer</a>
+<a href="../html/mapapi.html">Find a shelter</a>
+<a href="../html/about.html">About us</a>
+  </div>
+
+
+
+  
+<div class="topnav">
+<a href="../html/form.html">volunteer</a>
+<a href="../html/mapapi.html">Find a shelter</a>
+<a href="../html/about.html">About us</a>
+  </div>
+
+
+<div>
+    
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Places Search Box</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+
+
+
       #map {
         height: 100%;
       }
@@ -89,6 +138,9 @@
       }
     </style>
   </head>
+
+</div>
+
   <body>
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
@@ -258,6 +310,7 @@
   
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwMMOMASbTWZ4P2yPDaDyVR38W3xMnLF8&libraries=places&callback=initAutocomplete"
          async defer></script>
+
   </body>
 </html>
   

@@ -31,3 +31,21 @@ height: 300px;
     color: red;
 
 }
+.left-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px ;
+    opacity: .8;
+}
+.middle-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px;
+    opacity: .8;
+}
+.right-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px;
+    opacity: .8;
+}

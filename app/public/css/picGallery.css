@@ -1,5 +1,10 @@
 * {box-sizing:border-box}
-.mySlides1, .mySlides2 {display: none}
+
+
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 450px;
@@ -22,7 +27,7 @@
   width: auto;
   margin-top: -22px;
   padding: 12px;
-  color: yellow;
+  color: #bb8f6d;;
   font-weight: bold;
   font-size: 28px;
   transition: 0.6s ease;
@@ -67,7 +72,7 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #bb8f6d;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -93,11 +98,9 @@ button{
     border: 4px solid white;
     border-radius: 50%;
     background-color: #fdd631;
-  /* make center */
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 button:hover {
    opacity: 1;
@@ -107,8 +110,54 @@ button:hover {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-
   button:focus {outline:0;}
+
+/* raven claw button */
+  .button2{
+    float:center;
+       height: 370px;
+       width: 350px;
+       border: 4px solid white;
+       border-radius: 50%;
+       background-color: navy;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .button2:hover {
+      opacity: 1;
+     }
+     .button2:active {
+       background-color: black;
+       box-shadow: 0 5px #666;
+       transform: translateY(4px);
+     }
+     .button3:focus {outline:0;}
+     /* end of ravenclaw button */
+
+     /* start of slytherin dogs */
+     .button3{
+      float:center;
+         height: 370px;
+         width: 350px;
+         border: 4px solid white;
+         border-radius: 50%;
+         background-color: forestgreen;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .button3:hover {
+        opacity: 1;
+       }
+       .button3:active {
+         background-color: black;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+       }
+       .button3:focus {outline:0;}
+     /* end of slytherin dogs */
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}

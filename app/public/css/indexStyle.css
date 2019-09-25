@@ -286,6 +286,62 @@ img[src="Images/ravenclaw.jpg"] {
   opacity:.9;
   /* float:center; */
  } 
+ /* ravenclaw dogs */
+ img[src="Images/rav1.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+ img[src="Images/rav2.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+ img[src="Images/rav3.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+ /* end of raven claw dogs */
+
+/* slytherin dogs */
+
+img[src="Images/sly1.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+ img[src="Images/sly2.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+ img[src="Images/sly3.jpg"] { 
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 50%;
+  opacity:.9;
+  /* float:center; */
+ } 
+
+/* end of slytherin dogs */
+
  .four5 {
   height: 380px;
  width: 32%;

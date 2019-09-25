@@ -6,7 +6,10 @@
     text-align:center;
 } */
 body{
- background-color: #60727c;
+  background-color:#72121e;
+  /* background-color:#5c0000; */
+  /* background-color:#7F0909; */
+ /* background-color: #60727c; */
     margin: 0;
 }
 .infoBar1{
@@ -75,14 +78,13 @@ img[src="Images/sB.jpg"] {
 /* using for fading in and out on scroll */
 
 header {
-    margin: 0;
+    /* margin: 0; */
     position:sticky;
     width: 100%;
     background-color: 
     #bb8f6d;
-    height: 300px;
-    opacity: 1;
-    text-align: center;
+    height: 250px;
+   z-index: 1000;
     font-family: 'helvetica';
     font-size: 70px;
     font-weight: 100;
@@ -92,9 +94,10 @@ header {
   
   .title {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 100px;
     font-family:'Cinzel Decorative', cursive;
+  
 
   }
 
@@ -109,7 +112,21 @@ header {
     margin: 0px;
    
 }
+.content-3-columns1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  width:100%;
 
+}
+img[src="Images/red.jpg"] { 
+  float:center;
+  width:100%;
+  height:500px;
+  opacity: .7;
+ 
+ 
+ } 
 .row2 {
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
@@ -119,7 +136,7 @@ header {
    
 }
 .row3 {
- 
+ height:500px;
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
@@ -163,14 +180,22 @@ header {
 
 /* end of animations */
 
- 
+ #fixed{
+   /* position:fixed; */
+ }
   
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #b3183d;
+    background-color: #bb8f6d;
+    /* background-color: #b3183d; */
     /* font-family: 'Poiret One', cursive; */
     font-family: 'Cardo', serif;
+height: 75px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+ z-index: 999; 
   }
   
   /* Style the topnav links */
@@ -181,6 +206,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /* position:fixed; */
   }
   
   /* Change color on hover */
@@ -188,6 +214,10 @@ header {
     background-color:   #bb8f6d;
     color: black;
   }
+  /* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
 
 
 img[src="Images/woofer.jpg"] { 
@@ -197,19 +227,20 @@ img[src="Images/woofer.jpg"] {
     border-radius: 50%;
     /* opacity:.7; */
     float:right;
-    position:fixed;
-    z-index: 1000;
+    position:relative;
+    /* z-index: 1000; */
     top:0;
-    margin:20px;
+    /* margin:20px; */
  }
  .four1 {
 	/* width: 32%; */
 	float: right;
-   margin-top:2%; 
-   padding-right:320px;
+   /* margin-top:2%;  */
+   /* padding-right:320px; */
   
-    /* padding:60px; */
-    z-index: 1000;
+     /* padding-bottom:70px;  */
+     padding-right:60px;
+    /* z-index: 1000; */
     
     top:0;
 }

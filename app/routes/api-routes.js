@@ -8,8 +8,10 @@ module.exports = function (app) {
     });
     app.post("/api/volunteers", function (req, res) {
         db.Volunteer.create({
-            text: req.body.text,
-            complete: req.body.complete
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            email: req.body.email,
+            phoneNumber: req.body.phoneNumber
         }).then(function (dbVols) {
             res.json(dbVols);
         })

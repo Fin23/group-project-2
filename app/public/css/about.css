@@ -31,3 +31,24 @@ height: 300px;
     color: red;
 
 }
+.four1 {
+    text-align: center;
+    padding-top:60px;
+	width: 30%;
+	float:left;
+	/* margin-left: 2%; */
+}
+.four2 {
+    margin-right:55px;
+    text-align: center;
+	width: 30%;
+	float:center;
+    /* margin-left: 2%; */
+    padding-right:30px;
+}
+.four3 {
+    text-align: center;
+	width: 30%;
+	float:right;
+	/* margin-left: 2%; */
+}

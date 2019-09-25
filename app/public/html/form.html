@@ -65,7 +65,40 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
           <input type="number" class="form-control" id="numberPhone" placeholder="Phone Number">
          </div>
        
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+        <script> 
+        $(".submit").on("click", function(event) {
+          console.log("click")
+          event.preventDefault();
+        
+        // Grab new elements
+        var newVolunteer = {
+          firstName: $("#nameFirst").val().trim(),
+          lastName: $("#nameLast").val().trim(),
+          email: $("#exampleInputEmail1").val().trim(),
+          phoneNumber: $("#numberPhone").val().trim()
+        }
+        console.log(newVolunteer);
+        $.post("/api/volunteers", newVolunteer,
+      function(models) {
+        if (models) {
+          alert("You are a volunteer!");
+        }
+        
+      $("#nameFirst").val("");
+      $("#nameLast").val("");
+      $("#exampleInputEmail1").val("");
+      $("#numberPhone").val("");
+
+      
+      
+        });
+
+        });
+        
+          
+        
+        </script>
       </form>
 
 

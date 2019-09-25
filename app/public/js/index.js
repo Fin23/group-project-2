@@ -2,9 +2,9 @@
 $(window).scroll(function(){
     $(".title").css("opacity", 1 - $(window).scrollTop() / 250);
   });
-$(window).scroll(function(){
-    $(".topnav").css("opacity", 1 - $(window).scrollTop() / 350);
-  });
+// $(window).scroll(function(){
+//     $(".topnav").css("opacity", 1 - $(window).scrollTop() / 350);
+//   });
 $(window).scroll(function(){
     $(".row1").css("opacity", 1 - $(window).scrollTop() / 450);
   });

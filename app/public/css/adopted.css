@@ -1,0 +1,23 @@
+.thanks{
+    text-align: center;
+    color:  #bb8f6d;
+    font-family:'Cinzel Decorative', cursive;
+};
+
+.threeA {
+	width: 23.5%;
+	float:left;
+    margin-left: 2%;
+    border:solid;
+    background-color:#bb8f6d;
+}
+
+
+.eight8 {
+	width: 66%;
+	float: right;
+    margin-right: 2%;
+  text-align: center;
+    border:solid;
+    background-color: #bb8f6d;
+}

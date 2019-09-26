@@ -37,7 +37,11 @@ img[src="Images/huff.jpg"] {
 	float: left;
 	margin-left: 2%;
 }
-
+p{
+  font-family:'Cinzel Decorative', cursive;
+  text-align: center;
+  
+}
 
 
 .infoBar2{

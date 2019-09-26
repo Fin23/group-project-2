@@ -1,0 +1,27 @@
+.form-group{
+    width:100%;
+    
+    
+}
+.row9{
+   font-size: 3em;
+   color:#bb8f6d;
+}
+
+.eightB {
+	width: 40%;
+	float: right;
+    margin-right: 8%;
+    
+}
+h2{
+    font-family:'Cinzel Decorative', cursive;
+    text-align: center;
+    font-size: 1.7em;
+    
+  }
+  .sixB {
+	width: 30%; /* This div spans six columns (the entire row)*/
+	float: left;
+    margin-left: 4%;
+}

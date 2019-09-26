@@ -15,19 +15,19 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 
 <link rel= "stylesheet" href= "../css/grid.css">
 <link rel = "stylesheet" href="../css/indexStyle.css">
+<link rel= "stylesheet" href="../css/map.css"
+
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">
 
-            <!-- other css links -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-                                                                  <!-- Bootstrap CSS & JS -->
+
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
  
                                                                         <!-- jQuery -->
 <script src="https://code.jquery.com/jquery.js"></script> 
  
 
-</head>
+<head>
 <div>
 <div class="topnav">
     <a href="../index.html">Home</a>
@@ -55,7 +55,7 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
       /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 300pt; 
-        width:  400pt;
+        width:  1000pt;
         margin: 30pt;
         padding: 10pt;
       }
@@ -130,9 +130,13 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
         width: 345px;
       }
     </style>
-  </head>
+  
 
 </div>
+
+
+
+
 
   <body>
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
@@ -213,7 +217,7 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
         });
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.674, lng: -73.945},
+          center: {lat: 39.0997, lng: -94.5786},
           zoom: 12,
           styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
@@ -297,8 +301,30 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
           ]
         });
 
+addMarker({lat:38.908211, lng:-94.547083}) //wayside waifs
+addMarker({lat:39.044543, lng:-94.493551}) //kc pet project
+addMarker({lat:39.252597, lng:-94.664833}) //kc pet project zona rosa
+addMarker({lat:38.908211, lng:-94.547083}) //humane society
+addMarker({lat:39.189246, lng:-94.573796}) //petco
+addMarker({lat:39.191432, lng:-94.575840}) //petco
+addMarker({lat:39.117784, lng:-94.759663}) //
+addMarker({lat:39.759663, lng:-94.551300}) //
+addMarker({lat:39.030085, lng:-94.688680}) //great plains SPCA
+//addMarker({lat:, lng:}) //
+//addMarker({lat:, lng:}) //
+//addMarker({lat:, lng:})
+
+        function addMarker(coords){
+          var marker = new google.maps.Marker({
+            position:coords,
+            map:map
+          })
+        }
+
       }
    // API Key = AIzaSyDwMMOMASbTWZ4P2yPDaDyVR38W3xMnLF8 // 
+   //client id = 1080937285644-ve3a7oh23lf1tlpl8i5j0bomorrga7fu.apps.googleusercontent.com
+   //client secret =  
     </script>
   
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwMMOMASbTWZ4P2yPDaDyVR38W3xMnLF8&libraries=places&callback=initAutocomplete"

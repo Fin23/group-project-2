@@ -31,6 +31,26 @@ height: 300px;
     color: red;
 
 }
+ sambranch5
+.left-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px ;
+    opacity: .8;
+}
+.middle-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px;
+    opacity: .8;
+}
+.right-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px;
+    opacity: .8;
+}
+
 .four1 {
     text-align: center;
     padding-top:60px;
@@ -52,3 +72,4 @@ height: 300px;
 	float:right;
 	/* margin-left: 2%; */
 }
+master

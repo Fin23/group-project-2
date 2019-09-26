@@ -15,7 +15,7 @@ module.exports = function (app) {
 
   // index route loads indes.html
   app.get("/form", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/html/form.html"))
+    res.sendFile(path.join(__dirname, "../html/form.html"))
   })
   app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));

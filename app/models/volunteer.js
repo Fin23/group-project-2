@@ -1,7 +1,10 @@
 module.exports = function (sequelize, DataTypes) {
     var Volunteer = sequelize.define("Volunteer", {
-        text: DataTypes.STRING,
-        description: DataTypes.TEXT
+        firstName: DataTypes.STRING,
+        lastName: DataTypes.TEXT,
+        email: DataTypes.TEXT,
+        phoneNumber: DataTypes.TEXT
     });
-    return Volunteer;
-};
+    
+    return Volunteer; 
+        };

@@ -14,6 +14,7 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 
 <link rel= "stylesheet" href= "../css/grid.css">
 <link rel = "stylesheet" href="../css/indexStyle.css">
+<link rel = "stylesheet" href="../css/form.css">
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">
 
@@ -28,12 +29,15 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 
 </head>
 
-<div class="topnav">
-<a href="../html/form.html">volunteer</a>
+<div class="topnav"> 
+<font size="3"> 
+    <a href="../index.html">Home</a>
+<!-- <a href="../html/form.html">volunteer</a> -->
 <a href="../html/mapapi.html">Find a shelter</a>
 <a href="../html/about.html">About us</a>
-<a href="../index.html">Home</a>
-  </div>
+
+</font>
+</div>
 
 
 
@@ -46,27 +50,40 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
     <br>
     <br>
     <form>
+      <div class="row9"> 
+
+        <div class="sixB">  
         <div class="form-group">
-           <div class="form-group">
             <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="nameFirst" placeholder="First">
-          </div>
-
-          <div class="form-group">
-          <label for="lastName">Last Name</label>
-         <input type="text" class="form-control" id="nameLast" placeholder="Last">
-          </div>
-       
-          <label for="inputEmail">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
+              <input type="text" class="form-control" id="nameFirst" placeholder="First">
+                </div>
 
         <div class="form-group">
-         <label for="phoneNumber">Phone Number</label>
-          <input type="number" class="form-control" id="numberPhone" placeholder="Phone Number">
-         </div>
+          <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="nameLast" placeholder="Last">
+              </div>
        
-        <button type="submit" class="btn btn-primary submit">Submit</button>
+      <div class="form-group">
+        <label for="inputEmail">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+          <input type="number" class="form-control" id="numberPhone" placeholder="Phone Number">
+            </div>
+       
+      <button type="submit" class="btn btn-primary submit">Submit</button>
+    </div>
+
+    <div class="eightB">
+      <h2>
+        Volunteering!
+      </h2>
+      <p>If you would like to volunteer your skills to the best doggo wizard's adoption facility please fill out the information and we will respond shortly</p>
+    </div>
+      </div>
+
         <script> 
         $(".submit").on("click", function(event) {
           console.log("click")

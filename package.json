@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Fin23/group-project-2#readme",
   "dependencies": {
     "aos": "^2.3.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql": "^2.17.1",
     "mysql2": "^1.7.0",
     "nodemon": "^1.19.2",
